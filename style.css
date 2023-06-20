@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    height: 40px;
+    width: 700px;
+    border: 3px solid lightblue;
+    text-align: center;
+}
+.background{
+	background: url(images/bathroom.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width:1000px;
+	height:700px;
+	
+}
+img{
+	position: absolute;
+	cursor: pointer;
+}
+
+#soap{
+	left: 1030px;
+	top: 650px;
+}
+#brush{
+	left: 700px;
+	top: 575px;
+}
+#cream{
+	left: 655px;
+	top: 540px;
+}
+#eyeshadow{
+	left: 310px;
+	top: 650px;
+}
+#face-powder{
+	left: 530px;
+	top: 590px;
+}
+#hairbrush{
+	left: 770px;
+	top: 520px;
+}
+#lipstick{
+	left: 740px;
+	top: 195px;
+}
+#makeup-sponge{
+	left: 155px;
+	top: 149px;
+}
+#mascara{
+	left: 900px;
+	top: 500px;
+}
+#perfume{
+	left: 140px;
+	top: 475px;
+}
+#scissors{
+	left: 860px;
+	top: 670px;
+}
+#shampoo{
+	left: 200px;
+	top: 430px;
+}
+#shaving-kit{
+	left: 300px;
+	top: 460px;
+}
+#toothbrush{
+	left: 420px;
+	top: 550px;
+}
+#toothpaste{
+	left: 520px;
+	top: 540px;
+}
