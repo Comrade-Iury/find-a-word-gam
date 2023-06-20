@@ -19,7 +19,7 @@ h1{
 	
 }
 img{
-	position: absolute;
+	position: relative;
 	cursor: pointer;
 }
 
