@@ -10,6 +10,7 @@ h1{
     text-align: center;
 }
 .background{
+	position: relative;
 	background: url(images/bathroom.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
