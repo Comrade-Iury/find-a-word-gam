@@ -77,17 +77,12 @@ const addEventListener = () => {
 		document.getElementById("message").innerText = "Вы прошли игру!";
 		return;
 		}
-
 	document.getElementById("message").innerText = "Найди предмет " + shuffledObjects[currentIndex];
-
 	document.getElementById(shuffledObjects[currentIndex]).addEventListener('click', function (event) {
 			event.preventDefault();
-
 			this.style.opacity = '0';
 			this.style.transition = '0.5s';
-
 			++currentIndex;
-
 			addEventListener();
 		});
 };
